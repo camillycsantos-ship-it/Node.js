@@ -16,5 +16,8 @@ let numero1 = 4;
 let numero2 = 4;
 
 console.log(
-    numero1 % 2 === 0;
+    numero1 % 2 === 0 &&
+    numero2 % 2 === 0 &&
+    numero1 === numero2
 )
+
